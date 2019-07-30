@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="radius" format="integer"/>
+    <attr name="radiusTL" format="integer"/>
+    <attr name="radiusTR" format="integer"/>
+    <attr name="radiusBL" format="integer"/>
+    <attr name="radiusBR" format="integer"/>
+    <attr name="maxValue" format="integer"/>
+    <declare-styleable name="SweetSeekbarView">
+        <attr name="radius" />
+        <attr name="radiusTL" />
+        <attr name="radiusTR" />
+        <attr name="radiusBL" />
+        <attr name="radiusBR" />
+        <attr name="maxValue" />
+    </declare-styleable>
+    <declare-styleable name="HorizontalSweetSeekbarView">
+        <attr name="radius" />
+        <attr name="radiusTL" />
+        <attr name="radiusTR" />
+        <attr name="radiusBL" />
+        <attr name="radiusBR" />
+        <attr name="maxValue" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ddd"
+    tools:context=".MainActivity">
+<EditText
+    android:id="@+id/etMaxValue"
+    android:text="100"
+    android:hint="Enter Max Value"
+    android:gravity="center"
+    android:inputType="numberDecimal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+<org.dakik.sweetseekbar.SweetSeekbarView
+    android:id="@+id/ss"
+    android:layout_margin="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+</org.dakik.sweetseekbar.SweetSeekbarView>
+    <TextView
+        android:id="@+id/tvMove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <org.dakik.sweetseekbar.HorizontalSweetSeekbarView
+        android:id="@+id/ssH"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </org.dakik.sweetseekbar.HorizontalSweetSeekbarView>
+    <TextView
+        android:id="@+id/tvMoveH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvStopH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
