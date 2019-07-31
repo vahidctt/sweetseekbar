@@ -1,7 +1,7 @@
 # sweetseekbar
 Modern Seekbar like ios volume controller
 
-![alt text](https://user-images.githubusercontent.com/24703179/62169132-05494200-b330-11e9-8759-fe1a7ceeb531.gif)
+![alt text](https://user-images.githubusercontent.com/24703179/62212409-58131000-b3a9-11e9-9c00-d4c4e2699ea3.gif)
 
 Step 1. Add the JitPack repository to your build file
 Add it in your root build.gradle at the end of repositories:
@@ -17,7 +17,7 @@ allprojects {
 Step 2. Add the dependency
 ```
 dependencies {
-	        implementation 'com.github.vahidctt:sweetseekbar:v1.0'
+	        implementation 'com.github.vahidctt:sweetseekbar:v1.1'
 	}
 ```
 
@@ -26,17 +26,21 @@ dependencies {
 ``` xml
 <org.dakik.sweetseekbar.SweetSeekbarView
     android:id="@+id/ss"
-    app:radius="20"
+    android:layout_margin="20dp"
+    app:frontTint="@color/colorPrimary"
+    app:backTint="#ffa"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 </org.dakik.sweetseekbar.SweetSeekbarView>
 
-<org.dakik.sweetseekbar.HorizontalSweetSeekbarView
+<org.dakik.sweetseekbar.SweetSeekbarView
         android:id="@+id/ssH"
-        app:radius="20"
+        app:orientation="horizontal"
+        android:layout_margin="20dp"
+        app:enableBounceAnim="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-</org.dakik.sweetseekbar.HorizontalSweetSeekbarView>
+    </org.dakik.sweetseekbar.SweetSeekbarView>
 ```
 
 # USAGE in Code
