@@ -23,7 +23,7 @@ dependencies {
 
 # USAGE in layout XML
 
-```
+``` xml
 <org.dakik.sweetseekbar.SweetSeekbarView
     android:id="@+id/ss"
     app:radius="20"
@@ -36,7 +36,7 @@ dependencies {
         app:radius="20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-    </org.dakik.sweetseekbar.HorizontalSweetSeekbarView>
+</org.dakik.sweetseekbar.HorizontalSweetSeekbarView>
 ```
 
 # USAGE in Code
