@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import org.dakik.sweetseekbar.HorizontalSweetSeekbarView;
 import org.dakik.sweetseekbar.SweetSeekbarView;
 import org.dakik.sweetseekbar.interfaces.SweetSeekbarListener;
 
@@ -45,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        final HorizontalSweetSeekbarView ssh= findViewById(R.id.ssH);
+        final SweetSeekbarView ssh= findViewById(R.id.ssH);
         ssh.setListener(new SweetSeekbarListener() {
             @Override
             public void onStart(int value) {

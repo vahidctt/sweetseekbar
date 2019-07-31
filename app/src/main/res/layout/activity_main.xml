@@ -20,6 +20,8 @@
 <org.dakik.sweetseekbar.SweetSeekbarView
     android:id="@+id/ss"
     android:layout_margin="20dp"
+    app:frontTint="@color/colorPrimary"
+    app:backTint="#ffa"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 </org.dakik.sweetseekbar.SweetSeekbarView>
@@ -32,12 +34,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <org.dakik.sweetseekbar.HorizontalSweetSeekbarView
+    <org.dakik.sweetseekbar.SweetSeekbarView
         android:id="@+id/ssH"
+        app:orientation="horizontal"
         android:layout_margin="20dp"
+        app:enableBounceAnim="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-    </org.dakik.sweetseekbar.HorizontalSweetSeekbarView>
+    </org.dakik.sweetseekbar.SweetSeekbarView>
     <TextView
         android:id="@+id/tvMoveH"
         android:layout_width="wrap_content"
